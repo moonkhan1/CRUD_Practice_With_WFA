@@ -30,7 +30,7 @@ namespace StudentDB_Practice
         }
         public static void InitializeDatabase()
             {
-            string connectionString = @"Server=DESKTOP-J45QUA4\SQL;Database=Students;User Id=sa;Password=40kup40daqulpuqirix;TrustServerCertificate=True";
+            string connectionString = @"Server=\\SQL;Database=Students;User Id=sa;Password=40kup40daqulpuqirix;TrustServerCertificate=True";
                 try
                 {
                     using (var connection = new SqlConnection(connectionString))
